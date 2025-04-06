@@ -2,4 +2,4 @@
 
 Для сборки и запуска:
 1. make
-2. ./solution ./resourses "input file" "encoding" "output file"
+2. ./solution "input file" "encoding" "output file"
