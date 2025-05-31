@@ -2,4 +2,4 @@
 
 Для сборки и запуска:
 1. make
-2. ./solution "City"
+2. ./solution
