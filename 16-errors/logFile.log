@@ -1,0 +1,14 @@
+
+--- [2025-05-31 14:30:19] Hello! This is the beginning of the debugging session! ---
+
+[2025-05-31 14:30:19] [DEBUG] src/main.c:12 (main) - This is a debug log
+[2025-05-31 14:30:19] [INFO] src/main.c:13 (main) - Info log #1
+[2025-05-31 14:30:19] [WARNING] src/main.c:14 (main) - Warning message here
+[2025-05-31 14:30:19] [ERROR] src/main.c:15 (main) - Connection failed!
+Backtrace:
+  #0 ./solution(main+0xfb) [0x5e03f9a4c880]
+  #1 /lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca) [0x7784db82a1ca]
+  #2 /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b) [0x7784db82a28b]
+  #3 ./solution(_start+0x25) [0x5e03f9a4c225]
+
+--- [2025-05-31 14:30:19] End of debug session! ---
